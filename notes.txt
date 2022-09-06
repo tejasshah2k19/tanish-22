@@ -1,0 +1,66 @@
+HL->user eng 
+
+LL->system binary 
+
+
+ML -> HL + LL 
+
+
+
+HL -> C C++ Java 
+		program [HL] -->  Translator --> System [LL]
+
+1) compiler - whole at once
+2) interpreter - line by line 
+
+	1
+	2
+	3
+	4*
+	5
+	6*
+	7
+java -> compiled + interpreted 
+
+--------------------------------------------------------------------------------------------
+java --> 		
+
+				java 
+
+	JDK 						JRE
+	java development kit				Java Runtime Enviorment
+	bin/tools					JVM   LIB ClassLoader JIT
+	javac - java compile
+	java - execute 
+	javah - header  
+
+
+	save -> A.java
+
+	javac A.java //compilation 	A.java -> A.class [ bytecode ]  [ magic code ] 
+	java A //run 
+	
+
+
+--------------------------------------------------------------------------------------------
+
+variable -> a , b 
+    data name which is used to store values. 
+
+data type -> what type of data can store by your variable 
+
+        primitive                                             non primitive
+    byte    1 byte : 8 bits : 2^8 : 256                         class,object,enum,array.....
+                        -128 to 127 
+    short   2 byte 
+    char    2 byte -> single character -> 'n' 'k' 
+    int     4 byte 
+    long    8 byte 
+    float   4 byte 
+    double  8 byte 
+    boolean 1 bit -> true | false 
+
+
+
+
+
